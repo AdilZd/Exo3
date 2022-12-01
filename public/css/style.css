@@ -8,7 +8,14 @@ body {
 
 #divNav {
     background-color: #1a1a1d;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+li {
+    width: 100px;
+    margin-left: 30px;
 }
 
 .nav-list {
@@ -83,6 +90,43 @@ h2 {
     color: white;
 }
 
-.column4 {
-    
+.image {
+    height: 100px;
+}
+
+.div-bas {
+    display: flex;
+    background-color: #eae3d6;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.div-bas img {
+
+}
+
+.pp {
+    height: 120px;
+    width: 40%;
+}
+
+/* Footer */
+
+.container3 {
+    background-color: #393a3b;
+}
+
+.column-footer {
+    background-color: #393a3b;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.myClass {
+    height: 50px;
+    width: 50px;
+}
+
+
+h3 {
+    color: white;
 }
