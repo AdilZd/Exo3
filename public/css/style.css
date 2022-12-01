@@ -128,3 +128,8 @@ h2 {
 h3 {
     color: white;
 }
+
+.carte {
+    text-align: center;
+    background-color: #eae3d6 ;
+}
